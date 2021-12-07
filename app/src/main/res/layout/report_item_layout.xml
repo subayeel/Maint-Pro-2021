@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pdf"/>
+
+        <TextView
+            android:id="@+id/reportName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data structure usim g c"
+            android:textSize="14sp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/black"
+            android:fontFamily="@string/regular"/>
+
+        <ImageView
+            android:id="@+id/reportDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_download"
+            android:layout_marginLeft="-30dp"/>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
